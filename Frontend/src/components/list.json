@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "Learn new stories everyday",
+    "price": 49,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Drama Book",
+    "title": "Interesting drama collection",
+    "price": 59,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Novel Book",
+    "title": "Best novel books",
+    "price": 99,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Science Book",
+    "title": "Discover science concepts",
+    "price": 79,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 5,
+    "name": "History Book",
+    "title": "Explore world history",
+    "price": 65,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Technology Book",
+    "title": "Learn modern technology",
+    "price": 120,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Math Book",
+    "title": "Improve math skills",
+    "price": 70,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 8,
+    "name": "English Book",
+    "title": "Learn English easily",
+    "price": 55,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Computer Book",
+    "title": "Basic computer knowledge",
+    "price": 90,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Programming Book",
+    "title": "Start coding today",
+    "price": 150,
+    "category": "Free",
+    "image": "/stack-books-with-library-scene.jpg"
+  }
+]
