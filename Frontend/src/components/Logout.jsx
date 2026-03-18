@@ -3,7 +3,8 @@ import { useAuth } from "../context/AuthProvider";
 import toast from "react-hot-toast";
 
 function Logout() {
-  const [authUser, setAuthUser] = useAuth();
+  // CORRECTED: Destructure as an object
+  const { setAuthUser } = useAuth();
 
   const handleLogout = () => {
     try {

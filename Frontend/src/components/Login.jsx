@@ -5,28 +5,23 @@ import { useAuth } from "../context/AuthProvider";
 import toast from "react-hot-toast";
 
 function Login() {
-  const [authUser, setAuthUser] = useAuth();
+  // CORRECTED: Destructure as an object
+  const { setAuthUser } = useAuth();
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (data) => {
-    // Creating manual user data for testing as there is no backend yet
     const userInfo = {
-      _id: "123", // Test ID
+      _id: "123",
       email: data.email,
       fullname: "User",
     };
 
-    // Set data in Auth Context
     setAuthUser(userInfo);
-    // Save to LocalStorage
     localStorage.setItem("Users", JSON.stringify(userInfo));
 
     toast.success("Login Successful!");
-    
-    // Close the modal
     document.getElementById("my_modal_3").close();
     
-    // Refresh page after 1 second to update UI state
     setTimeout(() => {
       window.location.reload();
     }, 1000);
